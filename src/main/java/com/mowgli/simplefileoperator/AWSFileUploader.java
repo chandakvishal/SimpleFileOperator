@@ -14,7 +14,7 @@ public class AWSFileUploader implements FileUploader {
 
     @Override
     public void upload() {
-
+        // https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/setup-credentials.html
         System.out.println("Uploading file to S3");
         AmazonS3 amazonS3 = AmazonS3Client.builder()
                                           .withCredentials(new DefaultAWSCredentialsProviderChain())
