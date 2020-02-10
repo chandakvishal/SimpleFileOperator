@@ -1,0 +1,3 @@
+rootProject.name = 'SimpleFileOperator'
+enableFeaturePreview('IMPROVED_POM_SUPPORT')
+
